@@ -6,6 +6,7 @@
 import java.util.Scanner
 
 fun main(args: Array<String>) {
+
     val input = Scanner(System.`in`)
     val numberOne = input.nextInt()
     val numberTwo = input.nextInt()

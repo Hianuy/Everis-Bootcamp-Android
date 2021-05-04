@@ -16,6 +16,7 @@ fun main() {
 
     val sequence = readLine()!!.toInt()
 
+
     for (i in 1..sequence) {
         val v = readLine()!!.split(" ").run { map { it.toInt() } }
         val elementFirst = v.elementAt(0).toInt()

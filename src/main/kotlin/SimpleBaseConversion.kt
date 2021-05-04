@@ -10,6 +10,7 @@ Para cada linha de entrada (exceto a última) deve ser produzido uma linha de sa
  */
 fun main(args: Array<String>) {
 
+
     val patternHexadecimal = """0[a-zA-Z].*""".toRegex()
     val patternHex = """[a-zA-Z].*""".toRegex()
     val listTotal = mutableListOf<String>()

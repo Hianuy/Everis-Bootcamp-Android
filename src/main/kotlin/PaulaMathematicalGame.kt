@@ -13,6 +13,7 @@ Para cada caso de teste, deve ser impressa uma linha com um valor inteiro que re
 
 
 fun main() {
+
     val sequence = readLine()!!.toInt()
     for (i in 1..sequence) {
         val input = readLine()!!.chunked(1).run { map { it } }

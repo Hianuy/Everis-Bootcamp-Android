@@ -10,6 +10,7 @@ Para cada caso de teste de entrada haverá um valor na saída, representando o t
  */
 fun main(args: Array<String>) {
 
+
     val list = mutableListOf<Int>()
 
     for (i in 1..readLine()!!.toInt()) {

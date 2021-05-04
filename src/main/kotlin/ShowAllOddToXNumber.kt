@@ -12,6 +12,7 @@ Imprima todos os valores ímpares de 1 até X, inclusive X, se for o caso.
 
 fun main(args: Array<String>) {
 
+
     for (i in 1.rangeTo(readLine()!!.toInt()).step(2))
         println(i)
 }

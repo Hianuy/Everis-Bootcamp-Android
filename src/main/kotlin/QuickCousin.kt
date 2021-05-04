@@ -8,6 +8,7 @@ Para cada caso de teste imprima a mensagem “Prime” (Primo) ou “Not Prime�
 
 fun main(args: Array<String>) {
 
+
     val numberCases = readLine()!!.toInt()
 
     for (numbers in 1..numberCases) {

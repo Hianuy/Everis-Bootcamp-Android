@@ -9,6 +9,7 @@ Saída
 Imprima a saída conforme o exemplo fornecido.
 */
 fun main(args: Array<String>) {
+
     for (i in 1..readLine()!!.toInt())
         println(" ${i} ${i.times(i)} ${i.times(i).times(i)}")
 

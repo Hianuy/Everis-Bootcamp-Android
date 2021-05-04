@@ -23,6 +23,7 @@ import kotlin.math.absoluteValue
 import kotlin.math.max
 
 fun main(args: Array<String>) {
+
     while (true) {
         try {
             readLine()!!.toInt()
